@@ -4,14 +4,14 @@ styles: base/variables.scss
 maturity: ready
 control: exclude
 colors: 
-  - name: Kampmann Blau
+  - name: $blue
     hex: '#0e2249'
     rgb: rgb(14,34,73)
-	cmyk: cmyk(100,70,10,50)
-  - name: Frühlungsgrün
-    hex: '#95c11f'
-    rgb: rgb(149,193,31)
-	cmyk: cmyk(50,0,100,0)
+  - name: $black
+    hex: '#222222'
+    rgb: rgb(0,0,0)
+  - name: $pink
+    hex: 'hotpink' 
 ---
 <style>
 .set {
@@ -45,7 +45,6 @@ p {
     <p>{{ item.name }}</p>
     {% if item.hex %}<p>{{ item.hex }}</p>{% endif %}
     {% if item.rgb %}<p>{{ item.rgb }}</p>{% endif %}
-	{% if item.cmyk %}<p>{{ item.cmyk }}</p>{% endif %}
   </li>
 {% endfor %}
 </ul>
