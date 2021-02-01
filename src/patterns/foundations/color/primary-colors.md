@@ -7,11 +7,11 @@ colors:
   - name: Kampmann Blau
     hex: '#0e2249'
     rgb: rgb(14,34,73)
-  - name: $black
-    hex: '#222222'
-    rgb: rgb(0,0,0)
-  - name: $pink
-    hex: 'hotpink' 
+	cmyk: rgb(100,70,10,50)
+  - name: Frühlingsgrün
+    hex: '#95c11f'
+    rgb: rgb(149,193,31)
+	cmyk: cmyk(50.0.100.0)
 ---
 <style>
 .set {
@@ -45,6 +45,7 @@ p {
     <p>{{ item.name }}</p>
     {% if item.hex %}<p>{{ item.hex }}</p>{% endif %}
     {% if item.rgb %}<p>{{ item.rgb }}</p>{% endif %}
+	{% if item.cmyk %}<p>{{ item.cmyk }}</p>{% endif %}
   </li>
 {% endfor %}
 </ul>
