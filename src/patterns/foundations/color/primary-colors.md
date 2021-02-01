@@ -4,7 +4,7 @@ styles: base/variables.scss
 maturity: ready
 control: exclude
 colors: 
-  - name: $blue
+  - name: Kampmann Blau
     hex: '#0e2249'
     rgb: rgb(14,34,73)
   - name: $black
