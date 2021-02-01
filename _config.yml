@@ -1,122 +1,88 @@
-###################################
-## General Settings
+#
+# This file contains configuration flags to customize your site
+#
 
-## These settings are standard Jekyll Settings, check the Jekyll docs for help
+# Name of your site (displayed in the header)
+name: Kampmann Style Guide
 
-## Preprocessor settings
-highlighter: rouge
-markdown: kramdown
+# Short bio or description (displayed in the header)
+description: Kampmann GmbH & Co. KG
+
+# URL of your avatar or profile pic (you could use your GitHub profile pic)
+avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
+
+#
+# Flags below are optional
+#
+
+# Includes an icon in the footer for each username you enter
+footer-links:
+  dribbble:
+  email:
+  facebook: kampmanngroup
+  flickr:
+  github: 
+  instagram: kampmanngroup
+  linkedin:
+  pinterest:
+  rss: # just type anything here for a working RSS icon
+  twitter: 
+  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  youtube: # channel/<your_long_string> or user/<user-name>
+  googleplus: # anything in your profile username that comes after plus.google.com/
+
+
+# Enter your Disqus shortname (not your username) to enable commenting on posts
+# You can find your shortname on the Settings page of your Disqus account
+disqus:
+
+# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+google_analytics:
+
+# Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
+# Used for Sitemap.xml and your RSS feed
+url:
+
+# If you're hosting your site at a Project repository on GitHub pages
+# (http://yourusername.github.io/repository-name)
+# and NOT your User repository (http://yourusername.github.io)
+# then add in the baseurl here, like this: "/repository-name"
+baseurl: ""
+
+#
+# !! You don't need to change any of the configuration flags below !!
+#
+
+permalink: /:title/
+
+# The release of Jekyll Now that you're using
+version: v1.2.0
+
+# Jekyll 3 now only supports Kramdown for Markdown
 kramdown:
+  # Use GitHub flavored markdown, including triple backtick fenced code blocks
   input: GFM
+  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    # Use existing pygments syntax highlighting css
+    css_class: 'highlight'
 
-## Jekyll Serve
-port: 4000
-
-## Output
-siteurl:                    ## Optional 
-baseurl:                    ## Optional 
-destination: _site          ## Output folder
-
-
-###################################
-## Style Guide Shell Settings
-
-## These settings are used in when generating the style guide shell
-sg_title: Jekyll Style Guide
-sg_version: 3.0
-sg_keywords: jekyll, style guide, playbook, design, code 
-sg_author: Matthew Elsom
-sg_description: This Jekyll Style Guide maintains design and code standards and documentation for a digital user interface.
-sg_language: en
-sg_styles: /styleguide/css/styleguide.css
-sg_favicon: /styleguide/branding/favicon.ico
-sg_ga: UA-19247091-8      ## Analytics Tracking
-
-## Generates Style Guide Shell Styles
-## Enable to change the style guide shell stylesheet.
-#sass: 
-#  sass_dir: styleguide/_scss
-#  style: :compressed
-
-
-###################################
-## Collection Settings
-
-## Outputs the _docs collection !Required
-collections:
-  docs: 
-    output: true
-
-## Sets the default attributes for the Documentation and Pattern Files !Required
-defaults:
-  - 
-    scope:
-      path: "_docs"
-    values:
-      layout: doc
-      type: doc
-  - 
-    scope:
-      path: "_docs/about"
-    values:
-      layout: doc
-      type: about    
-  - 
-    scope:
-      path: "_docs/foundations"
-    values:
-      layout: doc
-      type: foundation
-  - 
-    scope:
-      path: "_docs/components"
-    values:
-      layout: doc
-      type: component 
-  - 
-    scope:
-      path: "_docs/templates"
-    values:
-      layout: doc
-      type: template    
-  - 
-    scope:
-      path: "_docs/sample-pages"
-    values:
-      layout: doc
-      type: sample    
-  - 
-    scope:
-      path: "src/patterns"
-    values:
-      layout: pattern
-      type: pattern
-      maturity: planned
-      title: Not Assigned
-      styles: Not Assigned
-  - 
-    scope:
-      path: "src/patterns/sample-pages"
-    values:
-      type: sample
-      title: Not Assigned        
-
-###################################
-## Pattern Settings
-## These attributes are applied to all patterns via the pattern.html layout.
-
-pattern_author: AUTHOR NAME             ## used in <head> tag
-pattern_description: DESCRIPTION        ## used in <head> tag
-pattern_language: en                    ## used in <html> tag
-pattern_favicon: /src/assets/images/icon.ico
-pattern_styles:                 ## add style locations here
-  - /src/assets/css/style.css
-pattern_scripts:                ## add script locations here
-  - /src/assets/js/libs/jquery-2.1.4.min.js  
-
-
-## Generates Pattern Styles
-## Disable to prevent pattern styles from being generated.
+# Set the Sass partials directory, as we're using @imports
 sass:
-  sass_dir: src/assets/_scss 
-  style: :compressed      
+  style: :expanded # You might prefer to minify using :compressed
+
+# Use the following plug-ins
+gems:
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+
+# Exclude these files from your production _site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
+
+theme: jekyll-theme-cayman
