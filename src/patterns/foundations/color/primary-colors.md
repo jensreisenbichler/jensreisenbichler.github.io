@@ -12,6 +12,28 @@ colors:
     hex: '#95c11f'
     rgb: rgb(149,193,31)
 	cmyk: cmyk(50.0.100.0)
+  - name: Aloe Vera
+    hex: '#79c08b'
+    rgb: rgb(121,192,139)
+	cmyk: cmyk(57,0,57,0)
+  - name: Petrol
+    hex: '#008f8c'
+    rgb: rgb(0,143,140)
+	cmyk: cmyk(81,21,47,5)
+  - name: Cyan
+    hex: '#58c7da'
+    rgb: rgb(88,199,218)
+	cmyk: cmyk(61,0,61,0)
+  - name: Beige
+    hex: '#d7d5cd'
+    rgb: rgb(215,213,205)
+	cmyk: cmyk(18,13,20,0)
+  - name: Beige als 35%
+    hex: '#f0efec'
+  - name: Beige hell
+    hex: '#f1f0ee'
+    rgb: rgb(241,240,238)
+	cmyk: cmyk(7,5,7,0)	
 ---
 <style>
 .set {
