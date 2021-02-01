@@ -27,10 +27,10 @@ sg_version: 3.0
 sg_keywords: jekyll, style guide, playbook, design, code 
 sg_author: Matthew Elsom
 sg_description: This Jekyll Style Guide maintains design and code standards and documentation for a digital user interface.
-sg_language: en
+sg_language: de
 sg_styles: /styleguide/css/styleguide.css
 sg_favicon: /styleguide/branding/favicon.ico
-sg_ga: UA-19247091-8      ## Analytics Tracking
+sg_ga: UA-xxxxxxxx-x      ## Analytics Tracking
 
 ## Generates Style Guide Shell Styles
 ## Enable to change the style guide shell stylesheet.
@@ -107,7 +107,7 @@ defaults:
 
 pattern_author: AUTHOR NAME             ## used in <head> tag
 pattern_description: DESCRIPTION        ## used in <head> tag
-pattern_language: en                    ## used in <html> tag
+pattern_language: de                    ## used in <html> tag
 pattern_favicon: /src/assets/images/icon.ico
 pattern_styles:                 ## add style locations here
   - /src/assets/css/style.css
