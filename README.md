@@ -1,120 +1,71 @@
-> March, 2016: If you're on an old version of Jekyll Now and run into a) build warnings or b) syntax highlighting issues caused by [Jekyll 3 and GitHub Pages updates](https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0), just :sparkles:[update your _config.yml](https://github.com/barryclark/jekyll-now/pull/445/files):sparkles: and you'll be set!
+# Jekyll Style Guide 
 
-# Jekyll Now
+👋 Hi! My name's [Matthew](https://matthewelsom.com), and I built this Jekyll-based tool that you can use to generate and document product or system user interface (UI) patterns in a simple [Style Guide](https://jekyllstyleguide.com).
 
-**Jekyll** is a static site generator that's perfect for GitHub hosted blogs ([Jekyll Repository](https://github.com/jekyll/jekyll))
+## Why?
 
-**Jekyll Now** makes it easier to create your Jekyll blog, by eliminating a lot of the up front setup.
+There are a lot of really great styleguide methods, tools and [examples](http://styleguides.io) out there... but, I struggled to find one that was:
 
-- You don't need to touch the command line
-- You don't need to install/configure ruby, rvm/rbenv, ruby gems :relaxed:
-- You don't need to install runtime dependencies like markdown processors, Pygments, etc
-- If you're on Windows, this will make setting up Jekyll a lot easier
-- It's easy to try out, you can just delete your forked repository if you don't like it
+- easy and quick to use,
+- simple to maintain,
+- a match for my current workflow,
+- flexible enough to use on a wide variety of projects.
 
-In a few minutes you'll be set up with a minimal, responsive blog like the one below giving you more time to spend on writing epic blog posts!
+## Requirements
 
-![Jekyll Now Theme Screenshot](/images/jekyll-now-theme-screenshot.jpg "Jekyll Now Theme Screenshot")
+I decided that the following requirements would meet my needs: 
 
-## Quick Start
+- Use only [Jekyll](https://jekyll.rb) as a pre-requisit
+- Use HMTL/CSS/JS to build a web component, template, etc. (I called these 'patterns')
+- Track the 'maturity' of a pattern - i.e. is it ready to use, or not?
+- Automatically add all patterns into a 'Roadmap'
+- Enable simple documentation for developers, designers and product owners to use
+- Provide a style guide container or 'shell' that is unobtrusive and easy to visually customize
 
-### Step 1) Fork Jekyll Now to your User Repository
 
-Fork this repo, then rename the repository to yourgithubusername.github.io.
+## Help
 
-Your Jekyll blog will often be viewable immediately at <https://yourgithubusername.github.io> (if it's not, you can often force it to build by completing step 2)
+To get started using this tool check out these useful pages: 
 
-![Step 1](/images/step1.gif "Step 1")
+- Read the [design principles](https://jekyllstyleguide.com/docs/about/02-design-principle.html)
+- Setup and [installation](https://jekyllstyleguide.com/docs/about/01-getting-started.html) info
+- Learn how to [add patterns](https://jekyllstyleguide.com/docs/about/01-getting-started.html#adding-patterns), and [documentation](https://jekyllstyleguide.com/docs/about/01-getting-started.html#adding-documentation)
+- Understand the pattern [maturity](https://jekyllstyleguide.com/docs/about/03-maturity.html) scale
+- View all patterns in the [Roadmap](https://jekyllstyleguide.com/docs/about/04-roadmap.html)
 
-### Step 2) Customize and view your site
+___
 
-Enter your site name, description, avatar and many other options by editing the _config.yml file. You can easily turn on Google Analytics tracking, Disqus commenting and social icons here too.
 
-Making a change to _config.yml (or any file in your repository) will force GitHub Pages to rebuild your site with jekyll. Your rebuilt site will be viewable a few seconds later at <https://yourgithubusername.github.io> - if not, give it ten minutes as GitHub suggests and it'll appear soon
+**This tool was originally published in the public domain as 'Living StyleGuide' on 12 September 2016 by [Matthew Elsom](https://matthewelsom.com)**
 
-> There are 3 different ways that you can make changes to your blog's files:
+It's name was changed to 'Jekyll Style Guide' in 2018, and it's license was updated.
 
-> 1. Edit files within your new username.github.io repository in the browser at GitHub.com (shown below).
-> 2. Use a third party GitHub content editor, like [Prose by Development Seed](http://prose.io). It's optimized for use with Jekyll making markdown editing, writing drafts, and uploading images really easy.
-> 3. Clone down your repository and make updates locally, then push them to your GitHub repository.
+It was last updated in 2018 by Matthew Elsom. 
 
-![_config.yml](/images/config.png "_config.yml")
+Copyright © 2016 - 2018 & Beyond. All Rights Reserved. 
 
-### Step 3) Publish your first blog post
+**This tool has been tested for Google Chrome (Mac) v67+ and iOS Safari. Use with Caution.**
 
-Edit `/_posts/2014-3-3-Hello-World.md` to publish your first blog post. This [Markdown Cheatsheet](http://www.jekyllnow.com/Markdown-Style-Guide/) might come in handy.
 
-![First Post](/images/first-post.png "First Post")
 
-> You can add additional posts in the browser on GitHub.com too! Just hit the + icon in `/_posts/` to create new content. Just make sure to include the [front-matter](http://jekyllrb.com/docs/frontmatter/) block at the top of each new blog post and make sure the post's filename is in this format: year-month-day-title.md
+# License 
 
-## Local Development
+This tool is free for everyone to use, and modify, but don't try and sell it.
+Available under [Apache license version 2.0](https://www.apache.org/licenses/LICENSE-2.0.html).
 
-1. Install Jekyll and plug-ins in one fell swoop. `gem install github-pages` This mirrors the plug-ins used by GitHub Pages on your local machine including Jekyll, Sass, etc.
-2. Clone down your fork `git clone https://github.com/yourusername/yourusername.github.io.git`
-3. Serve the site and watch for markup/sass changes `jekyll serve`
-4. View your website at http://127.0.0.1:4000/
-5. Commit any changes and push everything to the master branch of your GitHub user repository. GitHub Pages will then rebuild and serve your website.
 
-## Moar!
+It was built using [Jekyll](https://jekyll.rb), it's [design principle](https://jekyllstyleguide.com/docs/about/02-design-principle.html) is based on the [US Design Standards](https://designsystem.digital.gov/design-principles/), and the css architecture is based on the [Simple SCSS Playbook](https://matthewelsom.com/blog/simple-scss-playbook.html).
 
-I've created a more detailed walkthrough, [**Build A Blog With Jekyll And GitHub Pages**](http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/) over at the Smashing Magazine website. Check it out if you'd like a more detailed walkthrough and some background on Jekyll. :metal:
+[View License File](https://github.com/matthewelsom/jekyll-style-guide/blob/master/LICENSE)
 
-It covers:
+--- 
 
-- A more detailed walkthrough of setting up your Jekyll blog
-- Common issues that you might encounter while using Jekyll
-- Importing from Wordpress, using your own domain name, and blogging in your favorite editor
-- Theming in Jekyll, with Liquid templating examples
-- A quick look at Jekyll 2.0’s new features, including Sass/Coffeescript support and Collections
+A few parts of this project are not in the public domain:
 
-## Jekyll Now Features
+- [Material Icons](https://material.io/tools/icons/) font files included in the `styleguide/fonts` directory were extracted from [Github](https://github.com/google/material-design-icons).
+- [HK Grotesk](https://hanken.co/product/hk-grotesk/) font files included in the `styleguide/fonts` directory were extracted from [Hanken](https://hanken.co/product/hk-grotesk/), copyright Alfredo Marco Pradil and Stefan Peev.
+- jQuery `[jquery-2.1.4.min.js]` was extracted from [jQuery](https://jquery.com/), copyright The jQuery Foundation.
+- Roboto font files in `fonts/roboto` were extracted from [Google Fonts](https://fonts.google.com/), copyright Christian Robertson.
+- Normalize `[_normalize.scss]` was extrcted from [Normalize.css](https://github.com/necolas/normalize.css), copyright Nicolas Gallagher and Jonathan Neal.
 
-✓ Command-line free _fork-first workflow_, using GitHub.com to create, customize and post to your blog  
-✓ Fully responsive and mobile optimized base theme (**[Theme Demo](http://jekyllnow.com)**)  
-✓ Sass/Coffeescript support using Jekyll 2.0  
-✓ Free hosting on your GitHub Pages user site  
-✓ Markdown blogging  
-✓ Syntax highlighting  
-✓ Disqus commenting  
-✓ Google Analytics integration  
-✓ SVG social icons for your footer  
-✓ 3 http requests, including your avatar  
-
-✘ No installing dependencies
-✘ No need to set up local development  
-✘ No configuring plugins  
-✘ No need to spend time on theming  
-✘ More time to code other things ... wait ✓!  
-
-## Questions?
-
-[Open an Issue](https://github.com/barryclark/jekyll-now/issues/new) and let's chat!
-
-## Other forkable themes
-
-You can use the [Quick Start](https://github.com/barryclark/jekyll-now#quick-start) workflow with other themes that are set up to be forked too! Here are some of my favorites:
-
-- [Hyde](https://github.com/poole/hyde) by MDO
-- [Lanyon](https://github.com/poole/lanyon) by MDO
-- [mojombo.github.io](https://github.com/mojombo/mojombo.github.io) by Tom Preston-Werner
-- [Left](https://github.com/holman/left) by Zach Holman
-- [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) by Michael Rose
-- [Skinny Bones](https://github.com/mmistakes/skinny-bones-jekyll) by Michael Rose
-
-## Credits
-
-- [Jekyll](https://github.com/jekyll/jekyll) - Thanks to its creators, contributors and maintainers.
-- [SVG icons](https://github.com/neilorangepeel/Free-Social-Icons) - Thanks, Neil Orange Peel. They're beautiful.
-- [Solarized Light Pygments](https://gist.github.com/edwardhotchkiss/2005058) - Thanks, Edward.
-- [Joel Glovier](http://joelglovier.com/writing/) - Great Jekyll articles. I used Joel's feed.xml in this repository.
-- [David Furnes](https://github.com/dfurnes), [Jon Uy](https://github.com/jonuy), [Luke Patton](https://github.com/lkpttn) - Thanks for the design/code reviews.
-- [Bart Kiers](https://github.com/bkiers), [Florian Simon](https://github.com/vermluh), [Henry Stanley](https://github.com/henryaj), [Hun Jae Lee](https://github.com/hunjaelee), [Javier Cejudo](https://github.com/javiercejudo), [Peter Etelej](https://github.com/etelej), [Ben Abbott](https://github.com/jaminscript), [Ray Nicholus](https://github.com/rnicholus), [Erin Grand](https://github.com/eringrand), [Léo Colombaro](https://github.com/LeoColomb), [Dean Attali](https://github.com/daattali), [Clayton Errington](https://github.com/cjerrington), [Colton Fitzgerald](https://github.com/coltonfitzgerald), [Trace Mayer](https://github.com/sunnankar) - Thanks for your [fantastic contributions](https://github.com/barryclark/jekyll-now/commits/master) to the project!
-
-## Contributing
-
-Issues and Pull Requests are greatly appreciated. If you've never contributed to an open source project before I'm more than happy to walk you through how to create a pull request.
-
-You can start by [opening an issue](https://github.com/barryclark/jekyll-now/issues/new) describing the problem that you're looking to resolve and we'll go from there.
-
-I want to keep Jekyll Now as minimal as possible. Every line of code should be one that's useful to 90% of the people using it. Please bear that in mind when submitting feature requests. If it's not something that most people will use, it probably won't get merged. :guardsman:
+**Please check with the respective rights holders for license details.**
