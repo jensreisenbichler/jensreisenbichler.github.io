@@ -9,6 +9,7 @@ colors:
     rgb: rgb(14,34,73)
   - name: Frühlingsgrün
     hex: '#95c11f'
+	rgba: rgba(0,0,0,0)
     rgb: rgb(149,193,31)
   - name: Aloe Vera
     hex: '#79c08b'
