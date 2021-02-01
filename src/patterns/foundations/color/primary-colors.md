@@ -8,7 +8,7 @@ colors:
     hex: '#0e2249'
     rgb: rgb(14,34,73)
 	cmyk: rgb(100,70,10,50)
-  - name: Frühlingsgrün
+  - name: Fr&uuml;hlingsgr&uuml;n
     hex: '#95c11f'
     rgb: rgb(149,193,31)
 	cmyk: cmyk(50.0.100.0)
