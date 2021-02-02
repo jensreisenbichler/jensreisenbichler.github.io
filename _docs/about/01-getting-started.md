@@ -21,7 +21,7 @@ jekyll serve
 
 Once your style guide is complete you can publish it to [Github Pages](https://pages.github.com/) like any other Jekyll website.
 
-
+<!--
 # Configuration
 
 {% highlight directory %}
@@ -358,3 +358,4 @@ Coming Soon
 
 
 ---
+-->
