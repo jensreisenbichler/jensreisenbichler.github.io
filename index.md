@@ -13,8 +13,8 @@ Dies ist der digitale Styleguide der Kampmann Group. Er dient zur zentralen Verw
 ## Was ist enthalten
 
 - Grundlagen
-	- [Farben]({{ site.baseurl }}/docs/foundations/typography.html)
-	- [Typografie]({{ site.baseurl }}/docs/foundations/typography.html)	
+	- [Farben]({{ site.baseurl }}/docs/foundations/farben.html)
+	- [Typografie]({{ site.baseurl }}/docs/foundations/typografie.html)	
 
 ## Veranwortliche
 
