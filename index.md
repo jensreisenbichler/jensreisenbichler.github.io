@@ -20,8 +20,5 @@ Dies ist der digitale Styleguide der Kampmann Group. Er dient zur zentralen Verw
 
 Bei Fragen rund um den digitalen Styleguide wenden Sie sich bitte direkt an:
 
-´´
 Kampmann GmbH &amp; Co. KG
 Frederik Vollmer
-
-´´
