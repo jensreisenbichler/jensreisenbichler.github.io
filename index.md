@@ -1,7 +1,7 @@
 ---
-title: Overview 
+title: Kampmann Group 
 layout: doc
-info: Welcome to the Jekyll Style Guide.
+info: Digital Styleguide der Kampmann Group.
 nav: false
 ---
 
