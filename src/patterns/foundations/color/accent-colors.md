@@ -32,7 +32,7 @@ colors:
   list-style: none;
 }
 li {
-  flex: 1 0 20%;
+  flex: 1 0 25%;
   margin: 1rem;
 }
 .color {

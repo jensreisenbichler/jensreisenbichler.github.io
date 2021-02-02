@@ -1,5 +1,5 @@
 ---
-title: Primärfarben
+title: Signalfarben
 styles: base/variables.scss
 maturity: ready
 control: exclude
