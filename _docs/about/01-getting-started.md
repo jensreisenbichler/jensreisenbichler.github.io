@@ -6,9 +6,8 @@ nav: true
 
 # Einleitung
 
-Genau mein Klima.
-
-Die Herleitung des Designs
+<h2>Genau mein Klima.</h2>
+<h3>Die Herleitung des Designs</h3>
 
 Der Claim umfasst die drei konzeptionellen Säulen der Markengestaltung. Die technische Genauigkeit, die durch Kampmanns technologischen Vorsprung möglich ist.
 
