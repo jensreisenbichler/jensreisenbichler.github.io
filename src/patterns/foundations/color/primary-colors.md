@@ -1,5 +1,5 @@
 ---
-title: Primary Colors
+title: Primärfarben
 styles: base/variables.scss
 maturity: ready
 control: exclude
@@ -10,23 +10,6 @@ colors:
   - name: Frühlingsgrün
     hex: '#95c11f'
     rgb: rgb(149,193,31)
-  - name: Aloe Vera
-    hex: '#79c08b'
-    rgb: rgb(121,192,139)
-  - name: Petrol
-    hex: '#008f8c'
-    rgb: rgb(0,143,140)
-  - name: Cyan
-    hex: '#58c7da'
-    rgb: rgb(88,199,218)
-  - name: Beige
-    hex: '#d7d5cd'
-    rgb: rgb(215,213,205)
-  - name: Beige als 35%
-    hex: '#f0efec'
-  - name: Beige hell
-    hex: '#f1f0ee'
-    rgb: rgb(241,240,238)
 ---
 <style>
 .set {
