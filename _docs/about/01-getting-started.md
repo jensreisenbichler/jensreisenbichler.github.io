@@ -1,6 +1,6 @@
 ---
-title: Getting Started
-info: How to setup and configure this Jekyll-based style guide boilerplate.
+title: Kampmann Group
+info: Digital Styleguide der Kampmann Group
 nav: true
 ---
 
@@ -308,7 +308,7 @@ Coming Soon
 
 
 
-<!--
+
 ## Includes
 
 - Includes are snippets of code used to help generate the style guide pages. 
@@ -358,4 +358,3 @@ Coming Soon
 
 
 ---
--->
