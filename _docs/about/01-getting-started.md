@@ -4,22 +4,15 @@ info: Digital Styleguide der Kampmann Group
 nav: true
 ---
 
-# Installation
+# Einleitung
 
-To start you’ll need to download and install [Jekyll](http://jekyllrb.com/) (3.1 or higher) and the source code from [Github](https://github.com/matthewelsom/jekyll-style-guide). 
+Genau mein Klima.
 
+Die Herleitung des Designs
 
-><i class="icon red" data-icon="info"></i>Sample UI patterns and documentation have been included in this tool to indicate what a finished Style Guide could look like. You can remove the files from `src/` and the `CNAME` file to start from scratch.
+Der Claim umfasst die drei konzeptionellen Säulen der Markengestaltung. Die technische Genauigkeit, die durch Kampmanns technologischen Vorsprung möglich ist.
 
-
-To serve the files locally run the following code in terminal: 
-
-{% highlight terminal %}
-$ cd /path/to/local/folder/
-jekyll serve
-{% endhighlight%}
-
-Once your style guide is complete you can publish it to [Github Pages](https://pages.github.com/) like any other Jekyll website.
+Die individuelle Empfindung des Einzelnen, denn jeder nimmt seine Umgebung unterschiedlich wahr. Und natürlich das Klima selbst, die Kernleistung aller Kampmann-Produkte, hier sichtbar gemacht durch verschiedene Temperaturströme.
 
 <!--
 # Configuration
